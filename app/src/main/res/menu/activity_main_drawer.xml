@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="Intro" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Clients" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_phone_black_24dp"
+                android:title="+91 999 99 999 99" />
+            <item
+                android:id="@+id/nav_Website"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="Website" />
+        </menu>
+    </item>
+
+</menu>
